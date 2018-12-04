@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F6962AED-B354-4980-8BF7-979DE958F730}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{196153EE-2646-4ECE-940C-7A3BB186E166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordKeeping", "RecordKeeping\RecordKeeping.csproj", "{28A95096-4E84-4A5C-A8D0-5604E69CE91C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A95096-4E84-4A5C-A8D0-5604E69CE91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A95096-4E84-4A5C-A8D0-5604E69CE91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A95096-4E84-4A5C-A8D0-5604E69CE91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A95096-4E84-4A5C-A8D0-5604E69CE91C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28A95096-4E84-4A5C-A8D0-5604E69CE91C} = {F6962AED-B354-4980-8BF7-979DE958F730}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C82F535-9F06-4962-8055-B3F8E867215F}
+	EndGlobalSection
+EndGlobal
