@@ -9,7 +9,7 @@ export class UserComponent {
   public users: User[];
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    http.get<User[]>(baseUrl + 'api/User/Users').subscribe(result => {
+    http.get<User[]>(baseUrl + 'api/Users').subscribe(result => {
       this.users = result;
     }, error => console.error(error));
   }
